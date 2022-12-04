@@ -13,8 +13,8 @@ object Day04 {
                 }
             }
             .filter { pairs ->
-                val interesct = pairs.first().intersect(pairs.last())
-                interesct == pairs.first() || interesct == pairs.last()
+                val intersect = pairs.first().intersect(pairs.last())
+                intersect == pairs.first() || intersect == pairs.last()
             }.size
         println(s)
     }
